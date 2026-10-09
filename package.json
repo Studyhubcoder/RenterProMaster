@@ -1,0 +1,17 @@
+{
+  "name": "rent-manager-separated",
+  "version": "12.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch backend/server.js",
+    "start": "node backend/server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^18.0.6",
+    "express": "^5.2.1",
+    "mongodb": "^6.20.0",
+    "mongoose": "^9.11.1"
+  }
+}
